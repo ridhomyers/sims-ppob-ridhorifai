@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+html {
+  font-family: Roboto;
+  padding: 0 5rem;
+}
+
+nav {
+  border-bottom: 1px groove rgb(100 116 139);
+  padding: 0;
+}
+
+.bg-black-gradient {
+  background: linear-gradient(
+    144.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #222225 91.61%
+  );
+}
+
+@media (max-width: 450px) {
+  html {
+    padding: 0 2rem;
+    height: 100vh;
+  }
+}
